@@ -1,4 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        hostname: 'connect.getseam.com',
+      },
+    ],
+  },
+}
 
-export default nextConfig;
+export default nextConfig
